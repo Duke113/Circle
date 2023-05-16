@@ -4,6 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
+    left: 600px;
+    background-image: url("https://media.istockphoto.com/id/1180711533/photo/scary-background-of-blue-sky-with-menacing-clouds.jpg?s=612x612&w=0&k=20&c=Uq_usBwVLbheZFuy-hU73k5fJePV-fKVhbbbKam9Ngw=");
+    background-size: cover;
 }
 
 .circle {
@@ -12,12 +16,15 @@ body {
     border-radius: 50%;
     background-color: #f0f;
     box-shadow: 
-        inset 0 0 50px #fff,
+        inset 0 0 100px #fff,
         inset 20px 0 50px rgb(233, 138, 252),
         inset 0 20px 50px rgb(233, 138, 252),
-        /* inset 0 50px 0 purple, */
-        0 0 60px #fff;
-    color: #faa2cb;
+        inset 10px 10px 20px white,
+        0 0 150px white,
+        0 0 100px red,
+        0 0 75px blue;
+
+    color: #WHITE;
     display: flex;
     justify-content: center;
     align-items: center;
